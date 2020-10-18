@@ -1,0 +1,126 @@
+; vim:ft=dosini
+
+[colors]
+red = #aaff0000
+maroon = #aa800000
+orange = #aaff8c00
+green = #aa00ff00
+black = #000000
+blackfaded = #99000000
+white = #f1f1f1
+whitefaded = #99f1f1f1
+
+[global/wm]
+margin-bottom = 20
+
+[bar/bar1]
+height = 45
+width = 100%
+;offset-x = 1%
+;offset-y = 10
+border-size = 10
+background = #00630000
+font-0 = DejaVu Sans Regular:size=13
+font-1 = Font Awesome 5 Brands Regular:style=Regular:size=13
+font-2 = Font Awesome 5 Free Solid:style=Solid:size=13
+font-3 = Font Awesome 5 Free Regular:style=Regular:size=11
+dpi = 144
+modules-left = i3
+modules-center =
+modules-right =  info-redshift-temp network battery date time
+fixed-center = true
+override-redirect = true
+wm-restack = true
+
+[module/i3]
+type = internal/i3
+
+ws-icon-[0-9]+ = <label>;<icon>
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-default = 
+
+format = <label-state> <label-mode>
+
+label-focused = %icon% 
+label-focused-background = ${colors.black}
+label-focused-foreground = ${colors.white}
+label-focused-padding = 4
+
+label-unfocused = %icon%
+label-unfocused-background = ${colors.black}
+label-unfocused-foreground = ${colors.whitefaded}
+label-unfocused-padding = 4
+
+[module/info-redshift-temp]
+type = custom/script
+exec = ~/.config/polybar/scripts/info-redshift-temp.sh
+interval = 5
+format-background = ${colors.black}
+format-padding = 2
+
+[module/network]
+type = internal/network
+interface = wlp2s0
+interval = 3
+
+label-connected = 
+label-connected-foreground = ${colors.whitefaded}
+label-connected-background = ${colors.black}
+label-connected-padding = 2
+
+label-disconnected = 
+label-disconnected-foreground = ${colors.red}
+label-disconnected-background = ${colors.black}
+label-disconnected-padding = 2
+;label-connected-margin = 10
+;label-connected-spacing = 4
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+time-format = %H:%M
+
+
+format-charging = <label-charging>
+format-charging-background = ${colors.black}
+label-charging-foreground = ${colors.whitefaded}
+label-charging =  %percentage%%
+format-charging-padding = 2
+
+format-discharging = <ramp-capacity>  <label-discharging>
+format-discharging-background = ${colors.black}
+label-discharging-foreground = ${colors.whitefaded}
+label-discharging = %percentage%%
+format-discharging-padding = 2
+
+
+ramp-capacity-0 = 
+ramp-capacity-0-foreground = ${colors.red}
+ramp-capacity-1 = 
+ramp-capacity-1-foreground = ${colors.orange} 
+ramp-capacity-2 = 
+ramp-capacity-2-foreground = ${colors.green}
+ramp-capacity-3 = 
+ramp-capacity-3-foreground = ${colors.green}
+ramp-capacity-4 = 
+ramp-capacity-4-foreground = ${colors.green}
+
+[module/date]
+type = internal/date
+label = %date%
+date = %a %b %d 
+format-background = ${colors.black}
+format-foreground = ${colors.whitefaded}
+format-padding = 2
+
+[module/time]
+type = custom/script
+exec = date "+%R"
+format-foreground = ${colors.white}
+format-background = ${colors.black}
+format-padding = 2
+label =  %output%
