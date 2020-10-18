@@ -34,7 +34,7 @@ bindkey -v
 
 #################################################################################
 
-## Aliasing
+## Alias ##
 
 # NixOS
 alias nixconf='vim ~/nixfiles/configuration.nix'
@@ -45,4 +45,11 @@ alias nixgarbage-week='nix-collect-garbage --delete-older-than 7d'
 alias nixgarbage-month='nix-collect-garbage --delete-older-than 30d'
 
 # Configurations
-alias i3conf='vim ~/.config/i3/config'
+alias config-i3='vim ~/.config/i3/config'
+alias config-alacritty='vim ~/.config/alacritty/alacritty.yml'
+alias config-polybar='vim ~/.config/polybar/config'
+alias config-picom='vim ~/.config/picom/picom.conf'
+alias config-lf='vim ~/.config/lf/lfrc'
+alias config-ranger='vim ~/.config/ranger/rc.conf'
+alias config-vim='vim .vimrc'
+alias config-zsh='vim .zshrc'
