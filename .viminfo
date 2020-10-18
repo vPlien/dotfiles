@@ -18,11 +18,11 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1603023807,,"wq"
-:w
-|2,0,1603023046,,"w"
+|2,0,1603028869,,"wq"
 :q!
-|2,0,1602995895,,"q!"
+|2,0,1603028830,,"q!"
+:w
+|2,0,1603026897,,"w"
 :set list
 |2,0,1602995737,,"set list"
 :set listchars=tab:\|\ 
@@ -198,59 +198,107 @@ $
 	
 |3,0,0,0,2,0,1602991665,"format-background = ${colors.black}",""
 "1	LINE	0
-	separator = ~
-|3,0,1,1,1,0,1602993754,"separator = ~"
+	#		  "nixpkgs=https://github.com/NixOS/nixpkgs-channels/archive/nixos-unstable.tar.gz"
+|3,0,1,1,1,0,1603026377,"#		  \"nixpkgs=https://github.com/NixOS/nixpkgs-channels/archive/nixos-unstable.tar.gz\""
 "2	LINE	0
-	format-padding = 4
-|3,0,2,1,1,0,1602992489,"format-padding = 4"
+	separator = ~
+|3,0,2,1,1,0,1602993754,"separator = ~"
 "3	LINE	0
 	format-padding = 4
-|3,0,3,1,1,0,1602992464,"format-padding = 4"
+|3,0,3,1,1,0,1602992489,"format-padding = 4"
 "4	LINE	0
-	module-margin = 1
-|3,0,4,1,1,0,1602992319,"module-margin = 1"
-"5	LINE	0
 	format-padding = 4
-|3,0,5,1,1,0,1602992295,"format-padding = 4"
+|3,0,4,1,1,0,1602992464,"format-padding = 4"
+"5	LINE	0
+	module-margin = 1
+|3,0,5,1,1,0,1602992319,"module-margin = 1"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1602992221,""
+	format-padding = 4
+|3,0,6,1,1,0,1602992295,"format-padding = 4"
 "7	LINE	0
-	label-connected-padding = 4
-|3,0,7,1,1,0,1602992146,"label-connected-padding = 4"
-"8	LINE	0
 	
-|3,0,8,1,1,0,1602991669,""
+|3,0,7,1,1,0,1602992221,""
+"8	LINE	0
+	label-connected-padding = 4
+|3,0,8,1,1,0,1602992146,"label-connected-padding = 4"
 "9	LINE	0
-	;label-charging-background = ${colors.black}
-|3,0,9,1,1,0,1602991353,";label-charging-background = ${colors.black}"
+	
+|3,0,9,1,1,0,1602991669,""
 ""-	CHAR	0
-	network
-|3,1,36,0,1,0,1602996034,"network"
+	 
+|3,1,36,0,1,0,1603026890," "
 
 # File marks:
-'0  234  5  ~/nixfiles/configuration.nix
-|4,48,234,5,1603023807,"~/nixfiles/configuration.nix"
-'1  53  13  ~/.config/alacritty/alacritty.yml
-|4,49,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
-'2  52  23  ~/.config/polybar/config
-|4,50,52,23,1602996439,"~/.config/polybar/config"
-'3  79  0  ~/nixfiles/configuration.nix
-|4,51,79,0,1602995895,"~/nixfiles/configuration.nix"
-'4  79  0  ~/nixfiles/configuration.nix
-|4,52,79,0,1602995895,"~/nixfiles/configuration.nix"
-'5  34  0  ~/.config/polybar/config
-|4,53,34,0,1602993823,"~/.config/polybar/config"
-'6  34  0  ~/.config/polybar/config
-|4,54,34,0,1602993823,"~/.config/polybar/config"
-'7  53  12  ~/.config/alacritty/alacritty.yml
-|4,55,53,12,1602993664,"~/.config/alacritty/alacritty.yml"
-'8  196  12  ~/.config/i3/config
-|4,56,196,12,1602993654,"~/.config/i3/config"
-'9  25  0  ~/.config/alacritty/alacritty.yml
-|4,57,25,0,1602990360,"~/.config/alacritty/alacritty.yml"
+'0  149  3  ~/nixfiles/configuration.nix
+|4,48,149,3,1603028869,"~/nixfiles/configuration.nix"
+'1  23  40  ~/nixfiles/configuration.nix
+|4,49,23,40,1603028830,"~/nixfiles/configuration.nix"
+'2  23  40  ~/nixfiles/configuration.nix
+|4,50,23,40,1603028830,"~/nixfiles/configuration.nix"
+'3  1  0  ~/nixfiles/configuration.nix
+|4,51,1,0,1603027688,"~/nixfiles/configuration.nix"
+'4  1  0  ~/nixfiles/configuration.nix
+|4,52,1,0,1603027688,"~/nixfiles/configuration.nix"
+'5  1  0  ~/nixfiles/configuration.nix
+|4,53,1,0,1603027688,"~/nixfiles/configuration.nix"
+'6  1  0  ~/nixfiles/configuration.nix
+|4,54,1,0,1603027688,"~/nixfiles/configuration.nix"
+'7  193  12  ~/nixfiles/configuration.nix
+|4,55,193,12,1603027643,"~/nixfiles/configuration.nix"
+'8  193  12  ~/nixfiles/configuration.nix
+|4,56,193,12,1603027643,"~/nixfiles/configuration.nix"
+'9  193  12  ~/nixfiles/configuration.nix
+|4,57,193,12,1603027643,"~/nixfiles/configuration.nix"
 
 # Jumplist (newest first):
+-'  149  3  ~/nixfiles/configuration.nix
+|4,39,149,3,1603028869,"~/nixfiles/configuration.nix"
+-'  1  0  ~/nixfiles/configuration.nix
+|4,39,1,0,1603028847,"~/nixfiles/configuration.nix"
+-'  23  40  ~/nixfiles/configuration.nix
+|4,39,23,40,1603028830,"~/nixfiles/configuration.nix"
+-'  23  40  ~/nixfiles/configuration.nix
+|4,39,23,40,1603028830,"~/nixfiles/configuration.nix"
+-'  1  0  ~/nixfiles/configuration.nix
+|4,39,1,0,1603027694,"~/nixfiles/configuration.nix"
+-'  1  0  ~/nixfiles/configuration.nix
+|4,39,1,0,1603027688,"~/nixfiles/configuration.nix"
+-'  193  12  ~/nixfiles/configuration.nix
+|4,39,193,12,1603027643,"~/nixfiles/configuration.nix"
+-'  193  12  ~/nixfiles/configuration.nix
+|4,39,193,12,1603027643,"~/nixfiles/configuration.nix"
+-'  193  12  ~/nixfiles/configuration.nix
+|4,39,193,12,1603027643,"~/nixfiles/configuration.nix"
+-'  193  12  ~/nixfiles/configuration.nix
+|4,39,193,12,1603027643,"~/nixfiles/configuration.nix"
+-'  156  26  ~/nixfiles/configuration.nix
+|4,39,156,26,1603026703,"~/nixfiles/configuration.nix"
+-'  156  26  ~/nixfiles/configuration.nix
+|4,39,156,26,1603026703,"~/nixfiles/configuration.nix"
+-'  156  26  ~/nixfiles/configuration.nix
+|4,39,156,26,1603026703,"~/nixfiles/configuration.nix"
+-'  156  26  ~/nixfiles/configuration.nix
+|4,39,156,26,1603026703,"~/nixfiles/configuration.nix"
+-'  1  0  ~/nixfiles/configuration.nix
+|4,39,1,0,1603026363,"~/nixfiles/configuration.nix"
+-'  1  0  ~/nixfiles/configuration.nix
+|4,39,1,0,1603026062,"~/nixfiles/configuration.nix"
+-'  242  5  ~/nixfiles/configuration.nix
+|4,39,242,5,1603023807,"~/nixfiles/configuration.nix"
+-'  234  5  ~/nixfiles/configuration.nix
+|4,39,234,5,1603023807,"~/nixfiles/configuration.nix"
+-'  242  5  ~/nixfiles/configuration.nix
+|4,39,242,5,1603023807,"~/nixfiles/configuration.nix"
+-'  234  5  ~/nixfiles/configuration.nix
+|4,39,234,5,1603023807,"~/nixfiles/configuration.nix"
+-'  242  5  ~/nixfiles/configuration.nix
+|4,39,242,5,1603023807,"~/nixfiles/configuration.nix"
+-'  234  5  ~/nixfiles/configuration.nix
+|4,39,234,5,1603023807,"~/nixfiles/configuration.nix"
+-'  242  5  ~/nixfiles/configuration.nix
+|4,39,242,5,1603023807,"~/nixfiles/configuration.nix"
+-'  234  5  ~/nixfiles/configuration.nix
+|4,39,234,5,1603023807,"~/nixfiles/configuration.nix"
 -'  234  5  ~/nixfiles/configuration.nix
 |4,39,234,5,1603023807,"~/nixfiles/configuration.nix"
 -'  1  0  ~/nixfiles/configuration.nix
@@ -259,267 +307,227 @@ $
 |4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
 -'  53  13  ~/.config/alacritty/alacritty.yml
 |4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
+-'  53  13  ~/.config/alacritty/alacritty.yml
+|4,39,53,13,1603023082,"~/.config/alacritty/alacritty.yml"
 -'  1  0  ~/.config/alacritty/alacritty.yml
 |4,39,1,0,1603023040,"~/.config/alacritty/alacritty.yml"
 -'  1  0  ~/.config/alacritty/alacritty.yml
 |4,39,1,0,1603023040,"~/.config/alacritty/alacritty.yml"
--'  52  23  ~/.config/polybar/config
-|4,39,52,23,1602996439,"~/.config/polybar/config"
--'  52  23  ~/.config/polybar/config
-|4,39,52,23,1602996439,"~/.config/polybar/config"
--'  52  23  ~/.config/polybar/config
-|4,39,52,23,1602996439,"~/.config/polybar/config"
--'  52  23  ~/.config/polybar/config
-|4,39,52,23,1602996439,"~/.config/polybar/config"
--'  123  39  ~/.config/polybar/config
-|4,39,123,39,1602996251,"~/.config/polybar/config"
--'  123  39  ~/.config/polybar/config
-|4,39,123,39,1602996251,"~/.config/polybar/config"
--'  123  39  ~/.config/polybar/config
-|4,39,123,39,1602996251,"~/.config/polybar/config"
--'  123  39  ~/.config/polybar/config
-|4,39,123,39,1602996251,"~/.config/polybar/config"
--'  125  41  ~/.config/polybar/config
-|4,39,125,41,1602996206,"~/.config/polybar/config"
--'  125  41  ~/.config/polybar/config
-|4,39,125,41,1602996206,"~/.config/polybar/config"
--'  125  41  ~/.config/polybar/config
-|4,39,125,41,1602996206,"~/.config/polybar/config"
--'  125  41  ~/.config/polybar/config
-|4,39,125,41,1602996206,"~/.config/polybar/config"
--'  92  33  ~/.config/polybar/config
-|4,39,92,33,1602996145,"~/.config/polybar/config"
--'  92  33  ~/.config/polybar/config
-|4,39,92,33,1602996145,"~/.config/polybar/config"
--'  92  33  ~/.config/polybar/config
-|4,39,92,33,1602996145,"~/.config/polybar/config"
--'  92  33  ~/.config/polybar/config
-|4,39,92,33,1602996145,"~/.config/polybar/config"
--'  93  3  ~/.config/polybar/config
-|4,39,93,3,1602996143,"~/.config/polybar/config"
--'  93  3  ~/.config/polybar/config
-|4,39,93,3,1602996143,"~/.config/polybar/config"
--'  93  3  ~/.config/polybar/config
-|4,39,93,3,1602996143,"~/.config/polybar/config"
--'  93  3  ~/.config/polybar/config
-|4,39,93,3,1602996143,"~/.config/polybar/config"
--'  70  42  ~/.config/polybar/config
-|4,39,70,42,1602996079,"~/.config/polybar/config"
--'  70  42  ~/.config/polybar/config
-|4,39,70,42,1602996079,"~/.config/polybar/config"
--'  70  42  ~/.config/polybar/config
-|4,39,70,42,1602996079,"~/.config/polybar/config"
--'  70  42  ~/.config/polybar/config
-|4,39,70,42,1602996079,"~/.config/polybar/config"
--'  54  42  ~/.config/polybar/config
-|4,39,54,42,1602996068,"~/.config/polybar/config"
--'  54  42  ~/.config/polybar/config
-|4,39,54,42,1602996068,"~/.config/polybar/config"
--'  54  42  ~/.config/polybar/config
-|4,39,54,42,1602996068,"~/.config/polybar/config"
--'  54  42  ~/.config/polybar/config
-|4,39,54,42,1602996068,"~/.config/polybar/config"
--'  1  0  ~/.config/polybar/config
-|4,39,1,0,1602995931,"~/.config/polybar/config"
--'  1  0  ~/.config/polybar/config
-|4,39,1,0,1602995931,"~/.config/polybar/config"
--'  1  0  ~/.config/polybar/config
-|4,39,1,0,1602995931,"~/.config/polybar/config"
--'  1  0  ~/.config/polybar/config
-|4,39,1,0,1602995931,"~/.config/polybar/config"
--'  79  0  ~/nixfiles/configuration.nix
-|4,39,79,0,1602995895,"~/nixfiles/configuration.nix"
--'  79  0  ~/nixfiles/configuration.nix
-|4,39,79,0,1602995895,"~/nixfiles/configuration.nix"
--'  79  0  ~/nixfiles/configuration.nix
-|4,39,79,0,1602995895,"~/nixfiles/configuration.nix"
--'  79  0  ~/nixfiles/configuration.nix
-|4,39,79,0,1602995895,"~/nixfiles/configuration.nix"
--'  79  0  ~/nixfiles/configuration.nix
-|4,39,79,0,1602995895,"~/nixfiles/configuration.nix"
--'  1  0  ~/nixfiles/configuration.nix
-|4,39,1,0,1602995685,"~/nixfiles/configuration.nix"
--'  1  0  ~/nixfiles/configuration.nix
-|4,39,1,0,1602995685,"~/nixfiles/configuration.nix"
--'  1  0  ~/nixfiles/configuration.nix
-|4,39,1,0,1602995685,"~/nixfiles/configuration.nix"
--'  1  0  ~/nixfiles/configuration.nix
-|4,39,1,0,1602995685,"~/nixfiles/configuration.nix"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  34  0  ~/.config/polybar/config
-|4,39,34,0,1602993823,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  67  11  ~/.config/polybar/config
-|4,39,67,11,1602993698,"~/.config/polybar/config"
--'  53  12  ~/.config/alacritty/alacritty.yml
-|4,39,53,12,1602993664,"~/.config/alacritty/alacritty.yml"
--'  53  12  ~/.config/alacritty/alacritty.yml
-|4,39,53,12,1602993664,"~/.config/alacritty/alacritty.yml"
--'  53  12  ~/.config/alacritty/alacritty.yml
-|4,39,53,12,1602993664,"~/.config/alacritty/alacritty.yml"
--'  53  12  ~/.config/alacritty/alacritty.yml
-|4,39,53,12,1602993664,"~/.config/alacritty/alacritty.yml"
--'  53  12  ~/.config/alacritty/alacritty.yml
-|4,39,53,12,1602993664,"~/.config/alacritty/alacritty.yml"
--'  53  12  ~/.config/alacritty/alacritty.yml
-|4,39,53,12,1602993664,"~/.config/alacritty/alacritty.yml"
--'  53  12  ~/.config/alacritty/alacritty.yml
-|4,39,53,12,1602993664,"~/.config/alacritty/alacritty.yml"
--'  53  12  ~/.config/alacritty/alacritty.yml
-|4,39,53,12,1602993664,"~/.config/alacritty/alacritty.yml"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
--'  196  12  ~/.config/i3/config
-|4,39,196,12,1602993654,"~/.config/i3/config"
 -'  1  0  ~/.config/alacritty/alacritty.yml
-|4,39,1,0,1602993422,"~/.config/alacritty/alacritty.yml"
+|4,39,1,0,1603023040,"~/.config/alacritty/alacritty.yml"
 -'  1  0  ~/.config/alacritty/alacritty.yml
-|4,39,1,0,1602993422,"~/.config/alacritty/alacritty.yml"
+|4,39,1,0,1603023040,"~/.config/alacritty/alacritty.yml"
 -'  1  0  ~/.config/alacritty/alacritty.yml
-|4,39,1,0,1602993422,"~/.config/alacritty/alacritty.yml"
+|4,39,1,0,1603023040,"~/.config/alacritty/alacritty.yml"
 -'  1  0  ~/.config/alacritty/alacritty.yml
-|4,39,1,0,1602993422,"~/.config/alacritty/alacritty.yml"
+|4,39,1,0,1603023040,"~/.config/alacritty/alacritty.yml"
 -'  1  0  ~/.config/alacritty/alacritty.yml
-|4,39,1,0,1602993422,"~/.config/alacritty/alacritty.yml"
+|4,39,1,0,1603023040,"~/.config/alacritty/alacritty.yml"
+-'  1  0  ~/.config/alacritty/alacritty.yml
+|4,39,1,0,1603023040,"~/.config/alacritty/alacritty.yml"
+-'  1  0  ~/.config/alacritty/alacritty.yml
+|4,39,1,0,1603023040,"~/.config/alacritty/alacritty.yml"
+-'  1  0  ~/.config/alacritty/alacritty.yml
+|4,39,1,0,1603023040,"~/.config/alacritty/alacritty.yml"
 
 # History of marks within files (newest to oldest):
 
 > ~/nixfiles/configuration.nix
-	*	1603023806	0
-	"	234	5
-	^	234	6
-	.	234	5
+	*	1603028868	0
+	"	149	3
+	^	149	4
+	.	149	3
 	+	17	6
-	+	192	11
-	+	193	0
-	+	147	0
+	+	196	11
+	+	197	0
+	+	151	0
 	+	144	33
-	+	150	0
+	+	154	0
 	+	18	0
 	+	17	0
-	+	192	14
-	+	23	0
-	+	23	155
+	+	196	14
+	+	22	0
+	+	22	155
 	+	18	0
 	+	19	0
+	+	22	0
+	+	17	0
 	+	20	0
-	+	19	0
-	+	23	0
-	+	17	0
-	+	21	0
 	+	18	1
 	+	19	2
-	+	20	2
 	+	19	36
-	+	236	4
-	+	150	4
-	+	159	0
-	+	158	22
+	+	244	4
+	+	154	4
+	+	163	0
+	+	162	22
 	+	136	23
-	+	151	8
-	+	153	18
-	+	157	3
-	+	158	0
-	+	229	2
-	+	125	0
-	+	229	2
+	+	155	8
+	+	157	18
+	+	161	3
+	+	162	0
+	+	237	2
+	+	124	0
+	+	237	2
 	+	19	0
-	+	21	1
-	+	231	0
-	+	229	0
-	+	231	8
+	+	20	1
+	+	239	0
+	+	237	0
+	+	239	8
 	+	137	20
+	+	100	0
 	+	101	0
 	+	102	0
-	+	103	0
-	+	165	26
-	+	153	0
-	+	152	3
-	+	153	27
-	+	154	3
-	+	232	9
-	+	232	8
-	+	231	0
-	+	232	0
-	+	154	43
-	+	154	5
-	+	154	16
-	+	154	0
-	+	233	12
-	+	65	52
-	+	67	39
-	+	232	0
-	+	234	5
+	+	169	26
+	+	157	0
+	+	156	3
+	+	157	27
+	+	158	3
+	+	240	9
+	+	240	8
+	+	239	0
+	+	240	0
+	+	158	43
+	+	158	5
+	+	158	16
+	+	158	0
+	+	241	12
+	+	64	52
+	+	66	39
+	+	240	0
+	+	242	5
+	+	19	0
+	+	132	20
+	+	146	8
+	+	156	0
+	+	148	25
+	+	148	27
+	+	149	2
+	+	158	26
+	+	120	0
+	+	227	8
+	+	149	3
 
 > ~/.config/alacritty/alacritty.yml
 	*	1603023058	0
