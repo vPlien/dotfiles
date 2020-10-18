@@ -6,7 +6,7 @@ maroon = #aa800000
 orange = #aaff8c00
 green = #aa00ff00
 black = #000000
-blackfaded = #99000000
+blackfaded = #aa000000
 white = #f1f1f1
 whitefaded = #99f1f1f1
 
@@ -26,8 +26,8 @@ font-2 = Font Awesome 5 Free Solid:style=Solid:size=13
 font-3 = Font Awesome 5 Free Regular:style=Regular:size=11
 dpi = 144
 modules-left = i3
-modules-center =
-modules-right =  info-redshift-temp network battery date time
+modules-center = time
+modules-right =  battery info-redshift-temp network
 fixed-center = true
 override-redirect = true
 wm-restack = true
@@ -67,7 +67,7 @@ interface = wlp2s0
 interval = 3
 
 label-connected = 
-label-connected-foreground = ${colors.whitefaded}
+label-connected-foreground = ${colors.green}
 label-connected-background = ${colors.black}
 label-connected-padding = 2
 
@@ -87,13 +87,13 @@ time-format = %H:%M
 
 format-charging = <label-charging>
 format-charging-background = ${colors.black}
-label-charging-foreground = ${colors.whitefaded}
+label-charging-foreground = ${colors.white}
 label-charging =  %percentage%%
 format-charging-padding = 2
 
 format-discharging = <ramp-capacity>  <label-discharging>
 format-discharging-background = ${colors.black}
-label-discharging-foreground = ${colors.whitefaded}
+label-discharging-foreground = ${colors.white}
 label-discharging = %percentage%%
 format-discharging-padding = 2
 
@@ -114,13 +114,13 @@ type = internal/date
 label = %date%
 date = %a %b %d 
 format-background = ${colors.black}
-format-foreground = ${colors.whitefaded}
+format-foreground = ${colors.white}
 format-padding = 2
 
 [module/time]
 type = custom/script
 exec = date "+%R"
 format-foreground = ${colors.white}
-format-background = ${colors.black}
+format-background = ${colors.blackfaded}
 format-padding = 2
 label =  %output%
